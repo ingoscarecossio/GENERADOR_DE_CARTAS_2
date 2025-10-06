@@ -105,7 +105,7 @@ def find_target_table(doc: Document, prefer_index: int | None = None):
         if len(t.columns) == 4: candidate = t
     return candidate
 
-def clear_table_keep_header(table)) -> None:
+def clear_table_keep_header(table) -> None:
     while len(table.rows) > 1:
         tbl = table._tbl; tbl.remove(table.rows[-1]._tr)
 
