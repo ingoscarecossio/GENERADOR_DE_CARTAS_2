@@ -1,0 +1,11 @@
+streamlit
+pandas
+python-docx
+unidecode
+openpyxl
+docxcompose
+pypdf
+docx2pdf
+pyyaml
+reportlab
+jinja2
